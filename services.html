@@ -4,8 +4,8 @@
 		Services -- Pyron Environmental, Inc.
 	</title>
 	<link rel="stylesheet" href="font-awesome.min.css" rel="stylesheet"/>
-	<link rel="stylesheet" href="../main.css"/>
-	<link rel="stylesheet" href="../pyron.css"/>
+	<link rel="stylesheet" href="main.css"/>
+	<link rel="stylesheet" href="pyron.css"/>
 	<meta charset="utf-8">
 	<meta name="author" content="Helen Ung, adapted from Start Bootstrap">
 	<meta name="description" content="Website for Pyron Environmental, Inc., founded by Mingta Lin. Specialize in environmental and analytical consulting">
@@ -14,30 +14,33 @@
 <body>
 	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 		<div class="container">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="true">
+				<span class="sr-only">Toggle navigation</span>
+				<i class="icon-menu"></i> Menu
+			</button>
 			<div class="navbar-header">
 				<a class="navbar-brand" href="index.html">Pyron Environmental, Inc.</a>
 			</div>
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav">
 					<li class="dropdown">
-						<a href="../index.html" title="Home">Home</a>
+						<a href="index.html" title="Home">Home</a>
 					</li>
 					<li class="dropdown">
-						<a href="../services/index.html" title="About">Services</a>
+						<a href="services.html" title="About">Services</a>
 					</li>
 					<li class="dropdown">
-						<a href="../projects/index.html" title="Projects">Projects</a>
+						<a href="projects.html" title="Projects">Projects</a>
 					</li>
 					<li class="dropdown">
-						<a href="../about/index.html" title="About">About</a>
+						<a href="about.html" title="About">About</a>
 					</li>
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
 					<li class="dropdown">
-						<a href="../contact/index.html" title="About">Contact</a>
+						<a href="contact.html" title="About">Contact</a>
 					</li>
 				</ul>
-
 			</div>
 		</div>
 	</nav>
@@ -84,4 +87,8 @@
 			</div>
 		</div>
 	</footer>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/0.7.1/lunr.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="scripts.js"></script>
 </body>
